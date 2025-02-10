@@ -87,14 +87,14 @@ This will be a **short, clean project**.
 Added **character filters**—now you can choose based on **franchise** or **roster size**.  
 
 - Implemented **basic command-line parameters**.
-- Tested **a few edge cases**—nothing broke (yet).  
+- Tested **a few edge cases**—nothing broke.  
 - Feeling good. The project is simple. Contained. **Understandable.**
 
 ---
 
 ### **Day 3 - Speech Recognition (2/5/2025)**
 Thought it would be fun if you could **say "Pick a fighter"** instead of typing it.  
-Windows **has a Speech-to-Text API**, so I tried to integrate it.  
+Windows **has a Speech-to-Text Tool** via WIN+H, so I tried to integrate it.  
 
 - It **listens** now.
 - **It types on its own.**  
@@ -105,9 +105,10 @@ Windows **has a Speech-to-Text API**, so I tried to integrate it.
 ### **Day 4 - Text-to-Speech (2/6/2025)**
 The program **now speaks back**.  
 
-- Windows **Text-to-Speech** integration added.  
+- Windows **Text-to-Speech** hack integration added.  
 - It says the fighter’s name when chosen.  
-- Sometimes it **pronounces them wrong** in a way that feels… intentional.
+- Sometimes it **pronounces them wrong** in a way that feel intentional.
+- Project is beginning to be a bit bigger than expected
 
 Also, I swear it **picked Bayonetta three times in a row.**  
 That shouldn't be possible.  
@@ -131,7 +132,7 @@ It **should be fine**.
 Everything is in **one file**.  
 
 - I **tried** to refactor it. **Tried** to split it into modules.  
-- The moment I did, **the speech stopped working**.  
+- The moment I did, **everything died**.  
 - The program **wants to stay whole.**  
 
 I put everything back into one file. It works again.  
@@ -155,13 +156,13 @@ I need to sleep. I need to **stop**.
 It **only listens when it wants to**.  
 
 - Sometimes, **it plays a sound before I speak**.
-- It **never picks the Ice Climbers**. **Ever.**
+- It **never picks Captain Falcon**. **Ever.**
 - I wrote a function to **force it to pick Ice Climbers**—it crashes when I call it.  
 
 I have written **four bug reports to myself**. The issues **do not exist**.  
 I found **a commit from yesterday** that I **don’t remember making**.  
 The commit message is just:  
-> *"It must be whole."*  
+> *"Please make it stop"*  
 
 There are **no code changes** in the commit. Just the message.  
 
